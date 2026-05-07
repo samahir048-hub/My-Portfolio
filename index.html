@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samahir Usman | Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Dark Mode Toggle Button -->
+    <button id="darkModeToggle" class="dark-mode-btn">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Samahir Usman</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section (Home) - WITH PHOTO -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left side: Text -->
+                <div class="col-lg-7 col-md-12 text-center text-lg-start">
+                    <h1 class="display-4 fw-bold">Samahir Usman</h1>
+                    <p class="lead">Aspiring IT Professional | Front-End Basics | AI Enthusiast</p>
+                    <p class="mb-4">BIT Student | Expected Graduation 2027</p>
+                    <a href="#projects" class="btn btn-primary btn-lg">View My Work</a>
+                    <a href="#contact" class="btn btn-outline-light btn-lg">Contact Me</a>
+                    <button id="downloadResumeBtn" class="btn btn-success btn-lg ms-2">
+                        <i class="fas fa-download"></i> Download Resume
+                    </button>
+                </div>
+                <!-- Right side: Profile Photo -->
+                <div class="col-lg-5 col-md-12 text-center mt-4 mt-lg-0">
+                    <div class="profile-image-container">
+                        <img src="./Profile image.jpeg" alt="Samahir Usman" id="profilePhoto" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section - WITH PHOTO -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left side: Photo -->
+                <div class="col-lg-4 col-md-12 text-center mb-4 mb-lg-0">
+                    <div class="about-image-container">
+                        <img src="./Profile image.jpeg" alt="Samahir Usman" class="about-image">
+                    </div>
+                </div>
+                <!-- Right side: Text -->
+                <div class="col-lg-8 col-md-12">
+                    <h2 class="section-title text-center text-lg-start">About Me</h2>
+                    <p class="about-text">
+                        Motivated IT student currently pursuing a Bachelor's in Information Technology at 
+                        <strong>Government Graduate College, Samnabad, Faisalabad</strong>. 
+                        Completed <strong>F.Sc. Pre-Medical with 744 marks</strong> from Government Women College, Kharkhana Bazar, Faisalabad.
+                    </p>
+                    <p class="about-text">
+                        I am eager to apply my skills in <strong>HTML, CSS, JavaScript, React, Bootstrap, MS Word, MS Excel, and basic AI.</strong> 
+                  Quick learner with strong problem-solving abilities.
+                    </p>
+                    <div class="mt-4">
+                        <a href="#contact" class="btn btn-primary">Hire Me</a>
+                        <a href="#projects" class="btn btn-outline-secondary ms-2">My Projects</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section bg-light">
+        <div class="container">
+            <h2 class="section-title text-center" style="color: white;">My Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <i class="fas fa-code"></i>
+                        <h4>Web Development</h4>
+                        <p>HTML, CSS, JavaScript, React, Bootstrap</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <i class="fas fa-file-excel"></i>
+                        <h4>Microsoft Office</h4>
+                        <p>MS Word (Advanced), MS Excel (Formulas & Tables)</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <i class="fas fa-robot"></i>
+                        <h4>Basic AI</h4>
+                        <p>Supervised/Unsupervised Learning, Prompt Engineering</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title text-center">My Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <i class="fas fa-laptop-code project-icon"></i>
+                        <h4>Personal Portfolio Website</h4>
+                        <p>Built a responsive portfolio using HTML, CSS, React, and Bootstrap to showcase my technical skills.</p>
+                        <span class="badge bg-primary">HTML/CSS</span>
+                        <span class="badge bg-primary">React</span>
+                        <span class="badge bg-primary">Bootstrap</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <i class="fas fa-chart-line project-icon"></i>
+                        <h4>MS Excel Student Dashboard</h4>
+                        <p>Created a marks analysis dashboard using formulas, conditional formatting, and pivot tables.</p>
+                        <span class="badge bg-success">MS Excel</span>
+                        <span class="badge bg-success">Data Analysis</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <i class="fas fa-brain project-icon"></i>
+                        <h4>AI Basics Exploration</h4>
+                        <p>Learned fundamentals of AI including supervised vs unsupervised learning and prompt engineering.</p>
+                        <span class="badge bg-info">AI</span>
+                        <span class="badge bg-info">Machine Learning</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto text-center">
+                    <h2 class="section-title">Contact Me</h2>
+                    <p><i class="fas fa-phone"></i> <strong>Phone:</strong> +92 307 8459615</p>
+                    <p><i class="fas fa-envelope"></i> <strong>Email:</strong> samahir048@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> Faisalabad, Pakistan</p>
+                    <hr>
+                   
+                    <p class="mt-3">📩 References available upon request</p>
+                    
+                    <div class="contact-form-container mt-5">
+                        <h4 style="color: white;">Send me a message</h4>
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <input type="text" id="userName" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" id="userEmail" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea id="userMessage" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+                            <div id="formStatus" class="mt-3"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; 2025 Samahir Usman. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
